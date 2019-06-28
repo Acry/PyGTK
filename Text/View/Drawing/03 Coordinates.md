@@ -1,6 +1,6 @@
 
 
-#Textview Drawing - Coordinates
+# Textview Drawing - Coordinates
 
 
 The tv has separate coordinates.
@@ -12,6 +12,7 @@ To deal with that, use:
 and use the returned coords.
 
 Now scroll, move, resize or do whatever to the window - the red apple will be where it is expected.
+
 
 ## Links
 

@@ -1,6 +1,6 @@
 
 
-#Draw a line on a Textview
+# Draw a line on a Textview
 
 
 Textview = tv
@@ -11,7 +11,7 @@ Hook up to that event:
 `tv.connect("expose-event", cb-name)`
 
 
-##In the Callback
+## In the Callback
 
 Note:
 I skip part one of the cb-code, because it is not in the focus.
@@ -54,7 +54,7 @@ win.draw_line(gc, 0, self.y, width, self.y)
 Draws the line from point one x,y to point two x,y.
 
 
-##Links
+## Links
 
 GDK Drawable
 https://developer.gnome.org/pygtk/stable/class-gdkdrawable.html
