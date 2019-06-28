@@ -1,11 +1,11 @@
 #!/usr/bin/env python2
 
 """
-Draw Line.py
+03 Coordinates.py
 
-Drawing on a Textview Window.
+Some filling text.
 
-Draw a static red horizontal line.
+More filling text.
 """
 
 import gtk

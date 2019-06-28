@@ -17,3 +17,5 @@ Now scroll, move, resize or do whatever to the window - the red apple will be wh
 ## Links
 
 https://developer.gnome.org/pygtk/stable/class-gtktextview.html#method-gtktextview--get-window
+
+https://developer.gnome.org/pygtk/stable/class-gtktextview.html#method-gtktextview--buffer-to-window-coords
