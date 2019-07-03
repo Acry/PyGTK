@@ -33,10 +33,10 @@ class Draw5(gtk.Window):
         sw1.add(textview)
 
         # Create a new PixBufAnimation
-        self.anim = gtk.gdk.PixbufAnimation(FOURIER_IMAGE)
+        anim = gtk.gdk.PixbufAnimation(FOURIER_IMAGE)
 
         # Get the first PixbufAnimationIter
-        _iter = self.anim.get_iter(start_time=0.0)
+        _iter = anim.get_iter(start_time=0.0)
         pb = _iter.get_pixbuf()
         self.pb = pb
         del pb
